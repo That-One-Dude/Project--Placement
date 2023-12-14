@@ -1,0 +1,67 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build main",
+			"type": "shell",
+            "command": "",
+            "args": [
+                "make",
+                "--directory=${workspaceFolder}",
+            ],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"label": "Build Debug main",
+			"type": "shell",
+            "command": "",
+            "args": [
+                "make",
+				"debug",
+                "--directory=${workspaceFolder}",
+            ],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		},
+		{
+			"label": "Clean up",
+			"type": "shell",
+            "command": "",
+            "args": [
+                "make",
+				"clean",
+                "--directory=${workspaceFolder}",
+            ],
+			"options": {
+				"cwd": "/usr/bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}

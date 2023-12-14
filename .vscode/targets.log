@@ -1,0 +1,533 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 14 14:09:24 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a3877217-e933-40ad-af75-9462a135c883.sock
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+LC_NUMERIC = en_US.UTF-8
+# environment
+ 
+VSCODE_CWD = /home/tony
+# makefile (from 'Makefile', line 3)
+LIBS = -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL
+# environment
+CAML_LD_LIBRARY_PATH = /home/tony/.opam/default/lib/stublibs:/usr/lib/ocaml/stublibs:/usr/lib/ocaml
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+GDM_LANG = en_US.utf8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module:xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/tony/Development/c++/Game
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/tony
+# environment
+XDG_DATA_DIRS = /home/tony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/tony/.config/Code/CachedData/379476f0e13988d90fab105c5c19e7abc8b1dea8
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/tony/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/tony/Development/c++/Game
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'Makefile', line 6)
+SRCS := ./src/main.cpp ./src/universalData.cpp ./src/namespacedId.cpp ./src/gl/glFunctions.cpp ./src/io/rendering/entities/towers/debugTowerRenderer.cpp ./src/io/rendering/entities/towers/towerRenderer.cpp ./src/io/rendering/gameStates/main/mainGameStateRenderer.cpp ./src/io/rendering/batchRenderer.cpp ./src/io/rendering/renderingManager.cpp ./src/io/ioManager.cpp ./src/io/input/inputManager.cpp ./src/io/input/eventHandlers/mouseHandler.cpp ./src/io/input/inputData.cpp ./src/logic/gameState.cpp ./src/logic/entities/entity.cpp ./src/logic/entities/targetables/targetable.cpp ./src/logic/entities/targetables/enemy.cpp ./src/logic/entities/towers/targetingTower.cpp ./src/logic/entities/towers/tower.cpp ./src/logic/gameStates/main/playFieldLayout.cpp ./src/logic/gameStates/main/mainGameState.cpp ./src/logic/gameStates/main/enemySpawner.cpp ./src/logic/gameStates/main/debugObjects.cpp ./src/logic/logicManager.cpp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXAaGaFL/agent.1247
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = xfce
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=e0a6df15-c0bd-4b18-93bd-64c765e84e08&iid=e0a6df15-c0bd-4b18-93bd-64c765e84e08&sid=e0a6df15-c0bd-4b18-93bd-64c765e84e08","uploadToServer":true}
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+OCAML_TOPLEVEL_PATH = /home/tony/.opam/default/lib/toplevel
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 1047383
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 9)
+PROGRAMS = \ ${BINS} main 
+# environment
+SESSION_MANAGER = local/qwerty:@/tmp/.ICE-unix/1196,unix/qwerty:/tmp/.ICE-unix/1196
+# automatic
+*F = $(notdir $*)
+# environment
+MANPATH = :/home/tony/.opam/default/man
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/tony/.config/Code/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/tony/.opam/default/bin:/home/tony/.local/bin:/home/tony/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin
+# default
+MAKEFILES := 
+# makefile (from 'Makefile', line 1)
+.PHONY = all
+# environment
+LC_MONETARY = en_US.UTF-8
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# makefile (from 'Makefile', line 7)
+BINS := out/main.o out/universalData.o out/namespacedId.o out/gl/glFunctions.o out/io/rendering/entities/towers/debugTowerRenderer.o out/io/rendering/entities/towers/towerRenderer.o out/io/rendering/gameStates/main/mainGameStateRenderer.o out/io/rendering/batchRenderer.o out/io/rendering/renderingManager.o out/io/ioManager.o out/io/input/inputManager.o out/io/input/eventHandlers/mouseHandler.o out/io/input/inputData.o out/logic/gameState.o out/logic/entities/entity.o out/logic/entities/targetables/targetable.o out/logic/entities/targetables/enemy.o out/logic/entities/towers/targetingTower.o out/logic/entities/towers/tower.o out/logic/gameStates/main/playFieldLayout.o out/logic/gameStates/main/mainGameState.o out/logic/gameStates/main/enemySpawner.o out/logic/gameStates/main/debugObjects.o out/logic/logicManager.o
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = xfce
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = tony
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0.0
+# environment
+GTK_MODULES = canberra-gtk-module:canberra-gtk-module
+# environment
+USER = tony
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+OPAM_SWITCH_PREFIX = /home/tony/.opam/default
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+SSH_AGENT_PID = 1248
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+GTK2_RC_FILES = /home/tony/.gtkrc-2.0
+# environment
+HOME = /home/tony
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b76b6d66-1.59.0-main.sock
+# environment
+XDG_SESSION_ID = 2
+# environment
+PANEL_GDK_CORE_DEVICE_EVENTS = 0
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/tony
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 4)
+CC = /usr/bin/g++ $(LIBS)
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+GDMSESSION = xfce
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=9/158=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/gl (device 66305, inode 34737828): 1 files, no impossibilities so far.
+# src (device 66305, inode 33162426): 3 files, no impossibilities so far.
+# . (device 66305, inode 29492138): 20 files, no impossibilities.
+# src/io/rendering/entities/towers (device 66305, inode 35403063): 3 files, no impossibilities so far.
+
+# 27 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+out/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+out/io/rendering/batchRenderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out/io/rendering/entities/towers/debugTowerRenderer.o: src/io/rendering/entities/towers/debugTowerRenderer.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'io/rendering/entities/towers/debugTowerRenderer'
+#  Last modified 2022-07-31 18:30:31.761372532
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := out/io/rendering/entities/towers/debugTowerRenderer.o
+# automatic
+# * := io/rendering/entities/towers/debugTowerRenderer
+# automatic
+# < := src/io/rendering/entities/towers/debugTowerRenderer.cpp
+# automatic
+# + := src/io/rendering/entities/towers/debugTowerRenderer.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src/io/rendering/entities/towers/debugTowerRenderer.cpp
+# automatic
+# ? := src/io/rendering/entities/towers/debugTowerRenderer.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/15=33%
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# Not a target:
+out/io/input/inputData.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/gl/glFunctions.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 20:19:13.063011289
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 15:09:20.276756329
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+out/logic/gameStates/main/debugObjects.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/ioManager.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/input/inputManager.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-08 16:41:41.460490772
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+out/logic/entities/targetables/enemy.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/logic/entities/towers/targetingTower.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/io/rendering/entities/towers/debugTowerRenderer.cpp:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-08-14 14:05:37.438649046
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+out/logic/logicManager.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out/main.o: src/main.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-06-28 19:09:41.065857971
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# Not a target:
+src/namespacedId.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-02 16:46:06.980671414
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/rendering/gameStates/main/mainGameStateRenderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: out/main.o out/universalData.o out/namespacedId.o out/gl/glFunctions.o out/io/rendering/entities/towers/debugTowerRenderer.o out/io/rendering/entities/towers/towerRenderer.o out/io/rendering/gameStates/main/mainGameStateRenderer.o out/io/rendering/batchRenderer.o out/io/rendering/renderingManager.o out/io/ioManager.o out/io/input/inputManager.o out/io/input/eventHandlers/mouseHandler.o out/io/input/inputData.o out/logic/gameState.o out/logic/entities/entity.o out/logic/entities/targetables/targetable.o out/logic/entities/targetables/enemy.o out/logic/entities/towers/targetingTower.o out/logic/entities/towers/tower.o out/logic/gameStates/main/playFieldLayout.o out/logic/gameStates/main/mainGameState.o out/logic/gameStates/main/enemySpawner.o out/logic/gameStates/main/debugObjects.o out/logic/logicManager.o main
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+out/logic/gameState.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out/gl/glFunctions.o: src/gl/glFunctions.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'gl/glFunctions'
+#  Last modified 2022-06-10 21:09:03.059183293
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# Not a target:
+out/logic/entities/entity.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/logic/gameStates/main/playFieldLayout.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	${CC} -o game.out ${BINS}
+
+# Not a target:
+out/logic/entities/targetables/targetable.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/rendering/entities/towers/towerRenderer.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/rendering/renderingManager.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/logic/gameStates/main/mainGameState.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out/namespacedId.o: src/namespacedId.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'namespacedId'
+#  Last modified 2022-07-02 16:50:07.02961317
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# Not a target:
+out/logic/entities/towers/tower.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/logic/gameStates/main/enemySpawner.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+out/io/input/eventHandlers/mouseHandler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+out/universalData.o: src/universalData.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'universalData'
+#  Last modified 2022-07-04 21:51:57.601583195
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 16):
+	${CC} -c $< -o $@
+
+# Not a target:
+src/universalData.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-04 21:51:57.10825071
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=34/1024=3%, Rehash=0, Collisions=0/86=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 70 / storage = 1541 B / avg = 22 B
+# current buf: size = 8162 B / used = 1541 B / count = 70 / avg = 22 B
+
+# strcache performance: lookups = 85 / hit rate = 17%
+# hash-table stats:
+# Load=70/8192=1%, Rehash=0, Collisions=1/85=1%
+# Finished Make data base on Sun Aug 14 14:09:24 2022
+
+ 

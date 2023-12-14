@@ -1,0 +1,29 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/tony/Development/c++/Game'
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/main.cpp -o out/main.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/universalData.cpp -o out/universalData.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/namespacedId.cpp -o out/namespacedId.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/gl/glFunctions.cpp -o out/gl/glFunctions.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/rendering/entities/towers/debugTowerRenderer.cpp -o out/io/rendering/entities/towers/debugTowerRenderer.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/rendering/entities/towers/towerRenderer.cpp -o out/io/rendering/entities/towers/towerRenderer.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/rendering/gameStates/main/mainGameStateRenderer.cpp -o out/io/rendering/gameStates/main/mainGameStateRenderer.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/rendering/batchRenderer.cpp -o out/io/rendering/batchRenderer.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/rendering/renderingManager.cpp -o out/io/rendering/renderingManager.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/ioManager.cpp -o out/io/ioManager.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/input/inputManager.cpp -o out/io/input/inputManager.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/input/eventHandlers/mouseHandler.cpp -o out/io/input/eventHandlers/mouseHandler.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/io/input/inputData.cpp -o out/io/input/inputData.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/gameState.cpp -o out/logic/gameState.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/entities/entity.cpp -o out/logic/entities/entity.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/entities/targetables/targetable.cpp -o out/logic/entities/targetables/targetable.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/entities/targetables/enemy.cpp -o out/logic/entities/targetables/enemy.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/entities/towers/targetingTower.cpp -o out/logic/entities/towers/targetingTower.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/entities/towers/tower.cpp -o out/logic/entities/towers/tower.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/gameStates/main/playFieldLayout.cpp -o out/logic/gameStates/main/playFieldLayout.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/gameStates/main/mainGameState.cpp -o out/logic/gameStates/main/mainGameState.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/gameStates/main/enemySpawner.cpp -o out/logic/gameStates/main/enemySpawner.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/gameStates/main/debugObjects.cpp -o out/logic/gameStates/main/debugObjects.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -c src/logic/logicManager.cpp -o out/logic/logicManager.o
+/usr/bin/g++ -lX11 -pthread -lsfml-graphics -lsfml-window -lsfml-system -lGL -o game.out out/main.o out/universalData.o out/namespacedId.o out/gl/glFunctions.o out/io/rendering/entities/towers/debugTowerRenderer.o out/io/rendering/entities/towers/towerRenderer.o out/io/rendering/gameStates/main/mainGameStateRenderer.o out/io/rendering/batchRenderer.o out/io/rendering/renderingManager.o out/io/ioManager.o out/io/input/inputManager.o out/io/input/eventHandlers/mouseHandler.o out/io/input/inputData.o out/logic/gameState.o out/logic/entities/entity.o out/logic/entities/targetables/targetable.o out/logic/entities/targetables/enemy.o out/logic/entities/towers/targetingTower.o out/logic/entities/towers/tower.o out/logic/gameStates/main/playFieldLayout.o out/logic/gameStates/main/mainGameState.o out/logic/gameStates/main/enemySpawner.o out/logic/gameStates/main/debugObjects.o out/logic/logicManager.o
+make: Leaving directory '/home/tony/Development/c++/Game'
+ 
